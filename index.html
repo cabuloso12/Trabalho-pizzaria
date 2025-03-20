@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizzaria do Davi</title>
+</head>
+<body>
+    <Form>
+        <h3>Cadastro</h3>
+        <input type="text" placeholder="Login" id="Login">
+        <input type="password" placeholder="Senha" id="Senha">
+        <input type="text" placeholder="Email" id="Email">
+        <input type="number" placeholder="Telefone" id="Telefone">
+        <input type="submit" onclick="Login();return false" >
+    </Form>
+    <script>
+        function login (){
+            var Login = document.getElementById ('Login').value;
+            var Senha = document.getElementById ('Senha').value;
+            var Email = document.getElementById ('Email').value;
+            var Telefone = document.getElementById ("Telefone").value;
+        }
+        if(Login =="A" && Senha =="1" && Email =="N" && Telefone == "1"){
+            alert('Sucesso');
+            location.href = "home.html";
+
+        } 
+        else{
+            alert('Usuário ou senha incorretos')
+        }
+           </script>
+    
+</body>
+</html>

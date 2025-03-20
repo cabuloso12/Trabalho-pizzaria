@@ -1,0 +1,9 @@
+p{
+    font-size: 30px;
+    }
+    
+    body{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+    }
