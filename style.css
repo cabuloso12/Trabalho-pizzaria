@@ -1,9 +1,13 @@
 p{
-    font-size: 30px;
+    font-size: 50px;
     }
     
     body{
         display: flex;
         justify-content: center ;
         align-items: center;
+    }
+
+    .minha-div{
+        background: rgb(214, 117, 6);
     }
